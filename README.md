@@ -1,0 +1,1 @@
+I wrote this becaues redis isn't always an option and more than once I find myself just needing a bateries included perisitent, expiring cache.
