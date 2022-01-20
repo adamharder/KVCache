@@ -24,8 +24,11 @@ setup(
     author_email="",
     python_requires=">=3.6",
     install_requires=[
+        "arrow==1.2.1",
+        "attrs==21.4.0",
         "deprecated>=1.2.3",
         "packaging>=20.4",
+        "Werkzeug==2.0.2",
         'importlib-metadata >= 1.0; python_version < "3.8"',
     ],
     classifiers=[

@@ -8,7 +8,7 @@ else:
 from kvcache.kvcache import KVCache
 
 try:
-    __version__ = metadata.version("cfs")
+    __version__ = metadata.version("kvcache")
 except metadata.PackageNotFoundError:
     __version__ = "99.99.99"
 
